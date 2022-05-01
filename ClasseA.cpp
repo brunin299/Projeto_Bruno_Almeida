@@ -13,6 +13,7 @@ public:
 	int SetA2(float A2);
 	void MA1();
 	void MA2();
+	void MA3();
 };
 
 Classe_A::Classe_A(){
@@ -37,12 +38,15 @@ void Classe_A::MA1(){
 void Classe_A::MA2(){
 	cout << "MA2()" << endl;
 }
+void Classe_A::MA3(){
+	cout << "Alteracao a classe A apartir do clone" << endl;
+}
 
 int main(){
 	
 	Classe_A A;
 	A.MA1();
 	A.MA2();
+	A.MA3();
 	return 0;
-
 }
