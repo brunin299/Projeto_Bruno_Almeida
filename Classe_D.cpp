@@ -13,6 +13,7 @@ public:
 	int SetD2(int D2);
 	void MD1();
 	void MD2();
+	void MD4();
 };
 
 Classe_D::Classe_D() {
@@ -37,11 +38,20 @@ void Classe_D::MD1(){
 void Classe_D::MD2(){
 	cout << "MD2()" << endl;
 }
+void Classe_D::MD3(){
+	cout << "MD3()" << endl;
+}
+void Classe_D::MD4(){
+	cout << "MD4()" << endl;
+}
+
 
 int main(){
 	
 	Classe_D D;
 	D.MD1();
 	D.MD2();
+	D.MD3();
+	D.MD4();
 	return 0;
 }
